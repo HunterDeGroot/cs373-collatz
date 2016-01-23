@@ -33,6 +33,7 @@ def collatz_cycles (x) :
 		else :
 			x = (3 * x) + 1
 		cycles += 1
+		
 	assert cycles > 0
 	return cycles
 
@@ -47,11 +48,14 @@ def collatz_eval (i, j) :
     return the max cycle length of the range [i, j]
     """
     
+    assert i > 0 and j > 0
     biggest = 0
     for each in range(i, j+1) :
     	x = collatz_cycles(each)
     	if(x > biggest) :
     		biggest = x
+    		
+    assert biggest > 0
     return biggest
 
 # -------------
