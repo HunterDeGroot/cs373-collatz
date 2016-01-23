@@ -20,6 +20,23 @@ def collatz_read (s) :
     return [int(a[0]), int(a[1])]
 
 # ------------
+# collatz_cycles
+# ------------
+
+def collatz_cycles (x) :
+	
+	assert x > 0
+	cycles = 1
+	while x > 1 :
+		if (x % 2) == 0 :
+			x = (x // 2)
+		else :
+			x = (3 * x) + 1
+		cycles += 1
+	assert cycles > 0
+	return cycles
+
+# ------------
 # collatz_eval
 # ------------
 
@@ -29,8 +46,13 @@ def collatz_eval (i, j) :
     j the end       of the range, inclusive
     return the max cycle length of the range [i, j]
     """
-    # <your code>
-    return 1
+    
+    biggest = 0
+    for each in range(i, j+1) :
+    	x = collatz_cycles(each)
+    	if(x > biggest) :
+    		biggest = x
+    return biggest
 
 # -------------
 # collatz_print
