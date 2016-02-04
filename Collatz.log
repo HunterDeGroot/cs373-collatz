@@ -1,0 +1,79 @@
+commit 394f6695424da3a931a2a3f2f670183540edd270
+Merge: 0ee32ef 86f96b5
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 20:58:27 2016 -0600
+
+    Merge branch 'dev-branch'
+
+commit 86f96b5ffc9de7efc6d08d0cc51bf1f298392403
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 20:58:20 2016 -0600
+
+    additional pre/post conditions
+
+commit 0ee32ef8fd7a00660d26ef70bc57eb6744e0d60e
+Merge: d3f9eff e8ebde6
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 20:47:49 2016 -0600
+
+    Merge branch 'dev-branch'
+
+commit e8ebde6341ce6aa35891f51573e30390c165de4d
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 20:47:24 2016 -0600
+
+    working solution
+    
+    also fixed assertions in testCollatz to test correctly
+
+commit d3f9eff8388b128ec8cad10f1b56495885ee13d0
+Merge: c34e18c 4b8c4c9
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 19:19:50 2016 -0600
+
+    Merge branch 'dev-branch'
+
+commit 4b8c4c90870e1d186b805b89a56a5a669ee2b097
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 19:09:49 2016 -0600
+
+    bug fix for travis build
+    
+    didn’t specify test script
+
+commit 432b039996fb1ea3010a29186ff76b810c9e807f
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 19:01:40 2016 -0600
+
+    travis setup
+
+commit c34e18cc9be8204c38ecdd32e066bd755a359c2d
+Merge: 06793e7 3fff291
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 18:41:06 2016 -0600
+
+    Merge branch 'branch-test'
+
+commit 3fff2915915077e90276793a9901f5894d2f8f88
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 18:30:02 2016 -0600
+
+    first branch commit
+
+commit 06793e7344b53fb5480e93a73ada4193c03ad1a4
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 18:08:04 2016 -0600
+
+    delete init readme keep skele readme
+
+commit 3e6a1649d6683edd366dc190d777eb592c60dfc6
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 17:56:53 2016 -0600
+
+    skele files
+
+commit c436cb67aa1912c59bee1f7c22a668bb30012b0a
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Fri Jan 22 17:55:11 2016 -0600
+
+    Initial commit
