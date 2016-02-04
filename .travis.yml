@@ -1,13 +1,32 @@
-language: python
-python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  # does not have headers provided, please ask https://launchpad.net/~pypy/+archive/ppa
-  # maintainers to fix their pypy-dev package.
-  - "pypy"
+# http://docs.travis-ci.com/user/build-configuration/
 
-# command to run tests
-script: python3 TestCollatz.py
+language: python
+
+python:
+    - "3.4"
+
+sudo: false
+
+install:
+    - pip install --upgrade pip
+    - pip --version
+    - pip install coverage
+    - pip install numpy
+
+before_script:
+    - uname -a
+    - printenv
+    - pip list
+
+script:
+    - date
+    - ls -al
+    - make collatz-tests
+    - ls -al
+    - make Collatz.html
+    - ls -al
+    - make Collatz.log
+    - ls -al
+    - make test
+    - ls -al
+    - make check
