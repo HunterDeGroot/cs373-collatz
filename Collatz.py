@@ -3,7 +3,7 @@
 # ---------------------------
 # projects/collatz/Collatz.py
 # Copyright (C) 2015
-# Glenn P. Downing
+# Hunter DeGroot
 # ---------------------------
 
 # create cache
