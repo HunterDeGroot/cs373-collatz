@@ -1,3 +1,29 @@
+commit 79ddd42a837948157f5e088b80af9e3042a0faba
+Merge: 1217361 f3aca8e
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Thu Feb 4 16:36:00 2016 -0600
+
+    Merge branch 'dev-branch'
+
+commit f3aca8e24e97aed3d1b63b91ea85bad69d93385f
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Thu Feb 4 16:35:14 2016 -0600
+
+    travis update
+
+commit 12173619aaf5d8aa39a1a5211ce1030918776122
+Merge: 394f669 b095d48
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Thu Feb 4 16:32:31 2016 -0600
+
+    Merge branch 'dev-branch'
+
+commit b095d48a48054ea4beaa5ee46aff347869ba1fb3
+Author: Hunter DeGroot <hunterdegroot@gmail.com>
+Date:   Thu Feb 4 16:32:22 2016 -0600
+
+    Tests
+
 commit 394f6695424da3a931a2a3f2f670183540edd270
 Merge: 0ee32ef 86f96b5
 Author: Hunter DeGroot <hunterdegroot@gmail.com>
